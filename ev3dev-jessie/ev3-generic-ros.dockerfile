@@ -8,3 +8,4 @@ ENV BRICKSTRAP_IMAGE_NAME ${BRICKSTRAP_IMAGE_NAME}
 RUN echo "$BRICKSTRAP_IMAGE_NAME" > /etc/ev3dev-release
 COPY layers/ros/ /
 RUN apt-get -y update && apt-get install -y -t stretch libroscpp1d
+RUN apt-get install -y sshfs
