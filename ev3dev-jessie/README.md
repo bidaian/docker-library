@@ -7,6 +7,7 @@ Jessie.
 There are 4 hardware platforms:
 * `bone`: BeagleBone White/Black/Green
 * `ev3`: LEGO MINDSTORMS EV3
+* `ev3_ros`: LEGO MINDSTORMS EV3 with ROS (roscpp)
 * `rpi`: Raspberry Pi 0/1
 * `rpi2`: Rapsberry Pi 2/3
 
